@@ -107,18 +107,10 @@ A curated list of awesome C frameworks, libraries and software.
 * [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
 * [rswier/c4](https://github.com/rswier/c4) - C in four functions
 
-
-
-
-
-
-
+### Unsorted
 
 * [lz4/lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
-
 * [cinder/Cinder](https://github.com/cinder/Cinder) - Cinder is a community-developed, free and open source library for professional-quality creative coding in C++.
-
-
 * [aquynh/capstone](https://github.com/aquynh/capstone) - Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, RISCV, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
 * [citusdata/citus](https://github.com/citusdata/citus) - Scalable PostgreSQL for multi-tenant and real-time analytics workloads
 * [krallin/tini](https://github.com/krallin/tini) - A tiny but valid `init` for containers
