@@ -2,52 +2,123 @@
 
 A curated list of awesome C frameworks, libraries and software.
 
-* [git/git](https://github.com/git/git) - Git Source Code Mirror - This is a publish-only repository and all pull requests are ignored. Please follow Documentation/SubmittingPatches procedure for any of your improvements.
-* [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
-* [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) - A code-searching tool similar to ack, but faster.
-* [SamyPesse/How-to-Make-a-Computer-Operating-System](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System) - How to Make a Computer Operating System in C++
-* [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) - Mirror of git://source.ffmpeg.org/ffmpeg.git
+### Table of Contents
+
+
+#### Computer Networking
+
 * [curl/curl](https://github.com/curl/curl) - A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features
-* [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - Free and open source software for live streaming and screen recording
-* [vurtun/nuklear](https://github.com/vurtun/nuklear) - A single-header ANSI C gui library
-* [radareorg/radare2](https://github.com/radareorg/radare2) - unix-like reverse engineering framework and commandline tools
-* [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
-* [mpv-player/mpv](https://github.com/mpv-player/mpv) - 🎥 Video player based on MPlayer/mplayer2
 * [allinurl/goaccess](https://github.com/allinurl/goaccess) - GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
-* [pbatard/rufus](https://github.com/pbatard/rufus) - The Reliable USB Formatting Utility
-* [andlabs/libui](https://github.com/andlabs/libui) - Simple and portable (but not inflexible) GUI library in C that uses the native GUI technologies of each platform it supports.
-* [jonas/tig](https://github.com/jonas/tig) - Text-mode interface for git
+
+#### Web programming
+
 * [phpredis/phpredis](https://github.com/phpredis/phpredis) - A PHP extension for Redis
-* [jedisct1/libsodium](https://github.com/jedisct1/libsodium) - A modern, portable, easy to use crypto library.
-* [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
-* [reactos/reactos](https://github.com/reactos/reactos) - A free Windows-compatible Operating System
-* [s-matyukevich/raspberry-pi-os](https://github.com/s-matyukevich/raspberry-pi-os) - Learning operating system development using Linux kernel and Raspberry Pi
-* [hashcat/hashcat](https://github.com/hashcat/hashcat) - World's fastest and most advanced password recovery utility
-* [liuliu/ccv](https://github.com/liuliu/ccv) - C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
-* [jarun/nnn](https://github.com/jarun/nnn) - :dolphin: The missing terminal file manager for X
 * [jgamblin/Mirai-Source-Code](https://github.com/jgamblin/Mirai-Source-Code) - Leaked Mirai Source Code for Research/IoC Development Purposes
-* [systemd/systemd](https://github.com/systemd/systemd) - The systemd System and Service Manager
-* [glfw/glfw](https://github.com/glfw/glfw) - A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
-* [rswier/c4](https://github.com/rswier/c4) - C in four functions
-* [videolan/vlc](https://github.com/videolan/vlc) - VLC media player - All pull requests are ignored, please follow https://wiki.videolan.org/Sending_Patches_VLC/
-* [borgbackup/borg](https://github.com/borgbackup/borg) - Deduplicating archiver with compression and authenticated encryption.
-* [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) - Open-source keyboard firmware for Atmel AVR and Arm USB families
 * [lpereira/lwan](https://github.com/lpereira/lwan) - Experimental, scalable, high performance HTTP server
 * [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
-* [Tencent/xLua](https://github.com/Tencent/xLua) - xLua is a lua programming solution for  C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
-* [orangeduck/Cello](https://github.com/orangeduck/Cello) - Higher level programming in C
 * [zserge/webview](https://github.com/zserge/webview) - Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and MSHTML (Windows)
-* [davatorium/rofi](https://github.com/davatorium/rofi) - Rofi: A window switcher, application launcher and dmenu replacement
-* [go-vgo/robotgo](https://github.com/go-vgo/robotgo) - RobotGo, Go Native cross-platform GUI automation
-* [hishamhm/htop](https://github.com/hishamhm/htop) - htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'.
-* [rui314/8cc](https://github.com/rui314/8cc) - A Small C Compiler
-* [lz4/lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
-* [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) - SumatraPDF reader
 * [laruence/yaf](https://github.com/laruence/yaf) - Fast php framework written in c, built in php extension
 * [redis/hiredis](https://github.com/redis/hiredis) - Minimalistic C client for Redis >= 1.2
-* [cinder/Cinder](https://github.com/cinder/Cinder) - Cinder is a community-developed, free and open source library for professional-quality creative coding in C++.
 * [pocoproject/poco](https://github.com/pocoproject/poco) - The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.
+
+#### Cryptography and hashing
+
+* [jedisct1/libsodium](https://github.com/jedisct1/libsodium) - A modern, portable, easy to use crypto library.
+* [hashcat/hashcat](https://github.com/hashcat/hashcat) - World's fastest and most advanced password recovery utility
+
+### Machine learning
+
+* [liuliu/ccv](https://github.com/liuliu/ccv) - C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
+
+#### Game development
+
+* [fogleman/Craft](https://github.com/fogleman/Craft) - A simple Minecraft clone written in C using modern OpenGL (shaders).
+
+#### Computer graphics and GUI programming
+
+* [vurtun/nuklear](https://github.com/vurtun/nuklear) - A single-header ANSI C gui library
+* [andlabs/libui](https://github.com/andlabs/libui) - Simple and portable (but not inflexible) GUI library in C that uses the native GUI technologies of each platform it supports.
+* [glfw/glfw](https://github.com/glfw/glfw) - A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
+
+#### Video processing
+
+* [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) - Mirror of git://source.ffmpeg.org/ffmpeg.git
+* [obsproject/obs-studio](https://github.com/obsproject/obs-studio) - OBS Studio - Free and open source software for live streaming and screen recording
+* [mpv-player/mpv](https://github.com/mpv-player/mpv) - 🎥 Video player based on MPlayer/mplayer2
+* [videolan/vlc](https://github.com/videolan/vlc) - VLC media player - All pull requests are ignored, please follow https://wiki.videolan.org/Sending_Patches_VLC/
+
+#### Audio processing
+
+#### Programming languages
+
+* [Tencent/xLua](https://github.com/Tencent/xLua) - xLua is a lua programming solution for  C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
+* [rui314/8cc](https://github.com/rui314/8cc) - A Small C Compiler
+
+#### C programming extensions
+
+* [orangeduck/Cello](https://github.com/orangeduck/Cello) - Higher level programming in C
+
+#### Mobile development
+
+* [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
+
+#### Learning resouces
+
+* [SamyPesse/How-to-Make-a-Computer-Operating-System](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System) - How to Make a Computer Operating System in C++
+* [s-matyukevich/raspberry-pi-os](https://github.com/s-matyukevich/raspberry-pi-os) - Learning operating system development using Linux kernel and Raspberry Pi
 * [cstack/db_tutorial](https://github.com/cstack/db_tutorial) - Writing a sqlite clone from scratch in C
+
+#### Operating systems
+
+* [reactos/reactos](https://github.com/reactos/reactos) - A free Windows-compatible Operating System
+* [gparmer/Composite](https://github.com/gparmer/Composite) - A component-based OS
+
+#### Debugging tools
+
+* [radareorg/radare2](https://github.com/radareorg/radare2) - unix-like reverse engineering framework and commandline tools
+
+#### Project development tools
+
+* [git/git](https://github.com/git/git) - Git Source Code Mirror - This is a publish-only repository and all pull requests are ignored. Please follow Documentation/SubmittingPatches procedure for any of your improvements.
+* [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) - A code-searching tool similar to ack, but faster.
+
+#### Desktop GUI tools
+* [davatorium/rofi](https://github.com/davatorium/rofi) - Rofi: A window switcher, application launcher and dmenu replacement
+* [go-vgo/robotgo](https://github.com/go-vgo/robotgo) - RobotGo, Go Native cross-platform GUI automation
+* [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) - SumatraPDF reader
+
+#### Command Line Interface tools
+
+* [jonas/tig](https://github.com/jonas/tig) - Text-mode interface for git
+* [jarun/nnn](https://github.com/jarun/nnn) - :dolphin: The missing terminal file manager for X
+* [hishamhm/htop](https://github.com/hishamhm/htop) - htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'.
+
+#### System admin tools
+
+* [systemd/systemd](https://github.com/systemd/systemd) - The systemd System and Service Manager
+* [pbatard/rufus](https://github.com/pbatard/rufus) - The Reliable USB Formatting Utility
+* [borgbackup/borg](https://github.com/borgbackup/borg) - Deduplicating archiver with compression and authenticated encryption.
+
+#### Drivers and firmware
+
+* [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) - Open-source keyboard firmware for Atmel AVR and Arm USB families
+
+#### Miscellaneous
+* [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
+* [rswier/c4](https://github.com/rswier/c4) - C in four functions
+
+
+
+
+
+
+
+
+* [lz4/lz4](https://github.com/lz4/lz4) - Extremely Fast Compression algorithm
+
+* [cinder/Cinder](https://github.com/cinder/Cinder) - Cinder is a community-developed, free and open source library for professional-quality creative coding in C++.
+
+
 * [aquynh/capstone](https://github.com/aquynh/capstone) - Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, RISCV, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
 * [citusdata/citus](https://github.com/citusdata/citus) - Scalable PostgreSQL for multi-tenant and real-time analytics workloads
 * [krallin/tini](https://github.com/krallin/tini) - A tiny but valid `init` for containers
@@ -3196,7 +3267,7 @@ A curated list of awesome C frameworks, libraries and software.
 * [nitrogenlogic/cliserver](https://github.com/nitrogenlogic/cliserver) - A sample libevent-based network socket server that presents a simple command line interface to multiple connecting clients.
 * [mattsta/crcspeed](https://github.com/mattsta/crcspeed) - This make CRC be fast.  Included implementations: CRC-64-Jones and CRC-16-CCITT
 * [jakogut/tinyflock](https://github.com/jakogut/tinyflock) - A simple, high-performance, threaded, and interactive flocking demo written in C with GLFW.
-* [gparmer/Composite](https://github.com/gparmer/Composite) - A component-based OS
+
 * [epico/libibuspinyin-compat](https://github.com/epico/libibuspinyin-compat) - compatible files for ibus-pinyin and libpinyin integration.
 * [dave-andersen/cudapts](https://github.com/dave-andersen/cudapts) - An Nvidia-based miner for the Protoshares (PTS) cryptocurrency
 * [clear-code/cutter](https://github.com/clear-code/cutter) - An easy to write and debug unit testing framework for C and C++.
