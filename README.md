@@ -85,6 +85,7 @@ A curated list of awesome C frameworks, libraries and software.
 * [DaveGamble/cJSON](https://github.com/DaveGamble/cJSON) - Ultralightweight JSON parser in ANSI C
 * [esnme/ultrajson](https://github.com/esnme/ultrajson) - Ultra fast JSON decoder and encoder written in C with Python bindings
 * [ohler55/oj](https://github.com/ohler55/oj) - Optimized JSON
+* [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
 
 #### Compression
 
@@ -195,7 +196,7 @@ A curated list of awesome C frameworks, libraries and software.
 #### Miscellaneous
 
 * [rswier/c4](https://github.com/rswier/c4) - C in four functions
-* [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
+
 
 ### Unsorted
 
